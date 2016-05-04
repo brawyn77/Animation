@@ -1,0 +1,55 @@
+img  {
+  position: absolute;
+  margin: 100px 100px;
+  align-items:center;
+  width: 70%;
+  height: auto;
+  display: inline-block;
+  animation-name: bradcustom;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    -webkit-transform: ;
+    -ms-transform: ;
+    -o-transform: ;
+    transform: ;
+}
+
+img.ACTIVATE {
+    transform: translate3d(-150px, 50px, 150px);
+}
+
+@keyframes bradcustom {
+  0% {
+    -webkit-transform-origin: top left;
+    transform-origin: top left;
+    -webkit-animation-timing-function: ease-in-out;
+    animation-timing-function: ease-in-out;
+  }
+
+  20%, 60% {
+    -webkit-transform: rotate3d(0, 0, 1, 80deg);
+    transform: rotate3d(0, 0, 1, 80deg);
+    -webkit-transform-origin: top left;
+    transform-origin: top left;
+    -webkit-animation-timing-function: ease-in-out;
+    animation-timing-function: ease-in-out;
+  }
+
+  40%, 80% {
+    -webkit-transform: rotate3d(0, 0, 1, 60deg);
+    transform: rotate3d(0, 0, 1, 60deg);
+    -webkit-transform-origin: top left;
+    transform-origin: top left;
+    -webkit-animation-timing-function: ease-in-out;
+    animation-timing-function: ease-in-out;
+    opacity: 1;
+  }
+
+  to {
+    -webkit-transform: scale3d(.1, .1, .1) translate3d(0, -2000px, 0);
+    transform: scale3d(.1, .1, .1) translate3d(0, -2000px, 0);
+    -webkit-transform-origin: center bottom;
+    transform-origin: center bottom;
+    -webkit-animation-timing-function: cubic-bezier(0.175, 0.885, 0.32
+
+  }*/
